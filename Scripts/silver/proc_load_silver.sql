@@ -1,6 +1,8 @@
 /*
 This script will load silver layers 
 
+In this layer, the ETL loads the silver layer with clean  data from the bronze tables.
+
 EXEC silver.load_silver
 */
 create or alter procedure silver.load_silver as 
